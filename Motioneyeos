@@ -15,3 +15,14 @@ Paste the following contents into your blank file (obviously changing the ssid a
             ssid="MyWiFiSSID"
             psk="S3cr3tp@$$w0rc|"
         }
+i.e.
+
+country=GB
+        update_config=1
+        ctrl_interface=/var/run/wpa_supplicant
+        
+        network={
+            scan_ssid=1
+            ssid="BTHub6-5GM9"
+            psk="GT7KYUPAEfmP"
+        }
